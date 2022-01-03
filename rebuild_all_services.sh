@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Script Started"
-SERVICES=sw-ticket-initialise-service
+SERVICES=service1,service2
 for i in $(echo $SERVICES | sed "s/,/ /g")
 do
     echo "service:$i"
